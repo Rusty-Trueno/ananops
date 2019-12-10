@@ -1,0 +1,10 @@
+server:
+  port: 9200
+spring:
+  profiles:
+    active: dev
+  application:
+    name: ananops-provider-imc
+  datasource:
+    username: root
+    password: 123456

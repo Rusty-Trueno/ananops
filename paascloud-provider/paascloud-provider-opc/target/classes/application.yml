@@ -1,0 +1,11 @@
+server:
+  port: 8070
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: paascloud-provider-opc
+  datasource:
+    username: root
+    password: 123456

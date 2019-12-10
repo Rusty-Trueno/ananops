@@ -1,0 +1,52 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.paascloud.config.properties.PaascloudProperties",
+      "name": "paascloud",
+      "type": "com.paascloud.config.properties.PaascloudProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.paascloud.config.properties.PaascloudProperties",
+      "name": "paascloud.aliyun",
+      "type": "com.paascloud.config.properties.AliyunProperties"
+    },
+    {
+      "sourceType": "com.paascloud.config.properties.PaascloudProperties",
+      "name": "paascloud.gaode",
+      "type": "com.paascloud.config.properties.GaodeProperties"
+    },
+    {
+      "sourceType": "com.paascloud.config.properties.PaascloudProperties",
+      "name": "paascloud.job",
+      "type": "com.paascloud.config.properties.JobProperties"
+    },
+    {
+      "sourceType": "com.paascloud.config.properties.PaascloudProperties",
+      "name": "paascloud.message",
+      "type": "com.paascloud.config.properties.ReliableMessageProperties"
+    },
+    {
+      "sourceType": "com.paascloud.config.properties.PaascloudProperties",
+      "name": "paascloud.qiniu",
+      "type": "com.paascloud.config.properties.QiniuProperties"
+    },
+    {
+      "sourceType": "com.paascloud.config.properties.PaascloudProperties",
+      "name": "paascloud.swagger",
+      "type": "com.paascloud.config.properties.SwaggerProperties"
+    },
+    {
+      "sourceType": "com.paascloud.config.properties.PaascloudProperties",
+      "name": "paascloud.task",
+      "type": "com.paascloud.config.properties.AsyncTaskProperties"
+    },
+    {
+      "sourceType": "com.paascloud.config.properties.PaascloudProperties",
+      "name": "paascloud.zk",
+      "type": "com.paascloud.config.properties.ZookeeperProperties"
+    }
+  ]
+}

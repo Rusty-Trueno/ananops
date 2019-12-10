@@ -1,0 +1,9 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: paascloud-provider-uac
+  datasource:
+    username: root
+    password: 123456

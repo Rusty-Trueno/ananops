@@ -1,0 +1,15 @@
+server:
+  port: 8761
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: paascloud-eureka
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: root
+    password: root

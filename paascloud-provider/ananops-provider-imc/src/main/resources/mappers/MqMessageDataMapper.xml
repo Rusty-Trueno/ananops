@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="provider.mapper.MqMessageDataMapper" >
+  <resultMap id="BaseResultMap" type="provider.model.domain.MqMessageData" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="version" property="version" jdbcType="INTEGER" />
+    <result column="message_key" property="messageKey" jdbcType="VARCHAR" />
+    <result column="message_topic" property="messageTopic" jdbcType="VARCHAR" />
+    <result column="message_tag" property="messageTag" jdbcType="VARCHAR" />
+    <result column="message_type" property="messageType" jdbcType="INTEGER" />
+    <result column="delay_level" property="delayLevel" jdbcType="INTEGER" />
+    <result column="order_type" property="orderType" jdbcType="INTEGER" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="creator" property="creator" jdbcType="VARCHAR" />
+    <result column="creator_id" property="creatorId" jdbcType="BIGINT" />
+    <result column="created_time" property="createdTime" jdbcType="TIMESTAMP" />
+    <result column="last_operator" property="lastOperator" jdbcType="VARCHAR" />
+    <result column="last_operator_id" property="lastOperatorId" jdbcType="BIGINT" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="yn" property="yn" jdbcType="INTEGER" />
+    <result column="message_body" property="messageBody" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>
