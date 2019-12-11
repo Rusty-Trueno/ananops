@@ -1,0 +1,37 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.ananops.security.feign.Oauth2ClientProperties",
+      "name": "ananops.oauth2.client",
+      "type": "com.ananops.security.feign.Oauth2ClientProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.ananops.security.feign.Oauth2ClientProperties",
+      "name": "ananops.oauth2.client.access-token-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ananops.security.feign.Oauth2ClientProperties",
+      "name": "ananops.oauth2.client.client-authentication-scheme",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ananops.security.feign.Oauth2ClientProperties",
+      "name": "ananops.oauth2.client.client-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ananops.security.feign.Oauth2ClientProperties",
+      "name": "ananops.oauth2.client.client-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ananops.security.feign.Oauth2ClientProperties",
+      "name": "ananops.oauth2.client.id",
+      "type": "java.lang.String"
+    }
+  ]
+}

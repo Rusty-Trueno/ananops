@@ -1,0 +1,52 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.ananops.config.properties.PaascloudProperties",
+      "name": "ananops",
+      "type": "com.ananops.config.properties.PaascloudProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.ananops.config.properties.PaascloudProperties",
+      "name": "ananops.aliyun",
+      "type": "com.ananops.config.properties.AliyunProperties"
+    },
+    {
+      "sourceType": "com.ananops.config.properties.PaascloudProperties",
+      "name": "ananops.gaode",
+      "type": "com.ananops.config.properties.GaodeProperties"
+    },
+    {
+      "sourceType": "com.ananops.config.properties.PaascloudProperties",
+      "name": "ananops.job",
+      "type": "com.ananops.config.properties.JobProperties"
+    },
+    {
+      "sourceType": "com.ananops.config.properties.PaascloudProperties",
+      "name": "ananops.message",
+      "type": "com.ananops.config.properties.ReliableMessageProperties"
+    },
+    {
+      "sourceType": "com.ananops.config.properties.PaascloudProperties",
+      "name": "ananops.qiniu",
+      "type": "com.ananops.config.properties.QiniuProperties"
+    },
+    {
+      "sourceType": "com.ananops.config.properties.PaascloudProperties",
+      "name": "ananops.swagger",
+      "type": "com.ananops.config.properties.SwaggerProperties"
+    },
+    {
+      "sourceType": "com.ananops.config.properties.PaascloudProperties",
+      "name": "ananops.task",
+      "type": "com.ananops.config.properties.AsyncTaskProperties"
+    },
+    {
+      "sourceType": "com.ananops.config.properties.PaascloudProperties",
+      "name": "ananops.zk",
+      "type": "com.ananops.config.properties.ZookeeperProperties"
+    }
+  ]
+}

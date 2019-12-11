@@ -1,0 +1,12 @@
+server:
+  port: 7979
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: ananops-gateway
+
+swagger:
+  title: ananops-gateway
+  description: Demo project for Spring Boot

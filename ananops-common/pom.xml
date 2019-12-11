@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ananops-master</artifactId>
+        <groupId>com.ananops</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ananops.common</groupId>
+    <artifactId>ananops-common</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>ananops-common-base</module>
+        <module>ananops-common-config</module>
+        <module>ananops-common-core</module>
+        <module>ananops-common-util</module>
+        <module>ananops-common-zk</module>
+        <module>ananops-security-app</module>
+        <module>ananops-security-core</module>
+        <module>ananops-security-feign</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

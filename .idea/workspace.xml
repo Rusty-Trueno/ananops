@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2637aff0-7a6e-4a13-b8db-d9fe9097a6df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/ananops-provider-imc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/AnanOpsImcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/config/ImcWebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/core/annotation/AnanLogAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/core/aspect/AnanLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/core/enums/LogTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/manager/ImcTaskManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcDeviceOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcInspectionItemInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcInspectionItemLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcInspectionItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcInspectionReviewMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcInspectionTaskLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcInspectionTaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcMaintenanceTaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcPermitsInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcDeviceOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionItemInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionItemLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionTaskLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcMaintenanceTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcPermitsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/dto/ImcAddDeviceOrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/dto/ImcAddInspectionItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/dto/ImcAddInspectionReviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/dto/ImcAddInspectionTaskDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/dto/ImcAddInspectionTaskLogDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/dto/ImcAddPermitsInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/dto/ImcItemChangeStatusDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/dto/ImcTaskChangeStatusDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/enums/ItemStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/enums/TaskStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcDeviceOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcInspectionItemLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcInspectionItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcInspectionReviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcInspectionTaskLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcInspectionTaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcPermitsInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcDeviceOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionItemLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionReviewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionTaskLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionTaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcPermitsInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/frontend/ImcDeviceOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/frontend/ImcInspectionItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/frontend/ImcInspectionReviewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/frontend/ImcInspectionTaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/frontend/ImcPermitsInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/META-INF/spring-devtools.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/conf/liquibase.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/liquibase/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/mappers/ImcDeviceOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/mappers/ImcInspectionItemInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/mappers/ImcInspectionItemLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/mappers/ImcInspectionItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/mappers/ImcInspectionReviewMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/mappers/ImcInspectionTaskLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/mappers/ImcInspectionTaskMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/mappers/ImcMaintenanceTaskMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/mappers/ImcPermitsInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-common/ananops-common-base/src/main/java/com/ananops/base/constant/AliyunMqTopicConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/ananops-common/ananops-common-base/src/main/java/com/ananops/base/constant/AliyunMqTopicConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-common/ananops-common-base/src/main/java/com/ananops/base/enums/ErrorCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ananops-common/ananops-common-base/src/main/java/com/ananops/base/enums/ErrorCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-common/ananops-common-base/target/classes/com/ananops/base/constant/AliyunMqTopicConstants$ConsumerTopics.class" beforeDir="false" afterPath="$PROJECT_DIR$/ananops-common/ananops-common-base/target/classes/com/ananops/base/constant/AliyunMqTopicConstants$ConsumerTopics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-common/ananops-common-base/target/classes/com/ananops/base/constant/AliyunMqTopicConstants$MqTagEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/ananops-common/ananops-common-base/target/classes/com/ananops/base/constant/AliyunMqTopicConstants$MqTagEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-common/ananops-common-base/target/classes/com/ananops/base/constant/AliyunMqTopicConstants$MqTopicEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/ananops-common/ananops-common-base/target/classes/com/ananops/base/constant/AliyunMqTopicConstants$MqTopicEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-common/ananops-common-base/target/classes/com/ananops/base/constant/AliyunMqTopicConstants$TopicObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/ananops-common/ananops-common-base/target/classes/com/ananops/base/constant/AliyunMqTopicConstants$TopicObj.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-common/ananops-common-base/target/classes/com/ananops/base/constant/AliyunMqTopicConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/ananops-common/ananops-common-base/target/classes/com/ananops/base/constant/AliyunMqTopicConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-common/ananops-common-base/target/classes/com/ananops/base/enums/ErrorCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/ananops-common/ananops-common-base/target/classes/com/ananops/base/enums/ErrorCodeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-common/ananops-common-config/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/ananops-common/ananops-common-config/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-common/ananops-security-core/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/ananops-common/ananops-security-core/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-common/ananops-security-feign/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/ananops-common/ananops-security-feign/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-discovery/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ananops-discovery/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-discovery/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ananops-discovery/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-provider-api/ananops-provider-sdk-api/src/main/java/com/ananops/provider/model/domain/MqMessageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ananops-provider-api/ananops-provider-sdk-api/src/main/java/com/ananops/provider/model/domain/MqMessageData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ananops-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananops-sql.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ananopsJar.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elastic-job-lite-starter-parent/elastic-job-lite-starter/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/elastic-job-lite-starter-parent/elastic-job-lite-starter/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/ananops-discovery/target/" />
+    <ignored path="$PROJECT_DIR$/elastic-job-lite-starter-parent/elastic-job-lite-starter/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-common/ananops-security-core/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-provider-api/ananops-provider-uac-api/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-common/ananops-security-app/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-common/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-provider/ananops-provider-mdc/target/" />
+    <ignored path="$PROJECT_DIR$/elastic-job-lite-starter-parent/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-common/ananops-common-zk/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-provider-api/ananops-provider-opc-api/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-provider/ananops-provider-uac/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-zipkin/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-common/ananops-common-base/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-provider-api/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-common/ananops-common-config/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-provider-api/ananops-provider-sdk-api/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-generator/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-common/ananops-common-core/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-provider/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-provider-api/ananops-provider-mdc-api/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-common/ananops-common-util/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-provider/ananops-provider-tpc/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-common/ananops-security-feign/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-provider-api/ananops-provider-omc-api/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-monitor/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-provider/ananops-provider-opc/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-provider-api/ananops-provider-tpc-api/target/" />
+    <ignored path="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionTaskServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ananops-provider-api/ananops-provider-sdk-api/src/main/java/com/ananops/provider/model/domain/MqMessageData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/manager/ImcTaskManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>paascloud</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ananops</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/AnanOpsImcApplication.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/config/ImcWebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/core/annotation/AnanLogAnnotation.java" />
+        <option value="$PROJECT_DIR$/ananops-common/ananops-common-base/src/main/java/com/ananops/base/enums/ErrorCodeEnum.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcDeviceOrderMapper.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcInspectionItemInfoMapper.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcInspectionItemLogMapper.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcInspectionItemMapper.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcInspectionReviewMapper.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcInspectionTaskLogMapper.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcInspectionTaskMapper.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcMaintenanceTaskMapper.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcPermitsInfoMapper.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/enums/ItemStatusEnum.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/enums/TaskStatusEnum.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcDeviceOrderService.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcInspectionItemLogService.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcInspectionItemService.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcInspectionReviewService.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcInspectionTaskLogService.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcInspectionTaskService.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcPermitsInfoService.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcDeviceOrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionItemLogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionReviewServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionTaskLogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ananops-common/ananops-common-base/src/main/java/com/ananops/base/constant/AliyunMqTopicConstants.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcPermitsInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/frontend/ImcDeviceOrderController.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/frontend/ImcInspectionItemController.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/frontend/ImcInspectionReviewController.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/frontend/ImcInspectionTaskController.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/frontend/ImcPermitsInfoController.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/core/aspect/AnanLogAspect.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcDeviceOrder.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionItem.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionItemInfo.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionItemLog.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionReview.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionTask.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionTaskLog.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcMaintenanceTask.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcPermitsInfo.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/MqMessageDataMapper.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/MqMessageData.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionTaskServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ananops-provider-api/ananops-provider-sdk-api/src/main/java/com/ananops/provider/model/domain/MqMessageData.java" />
+        <option value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/manager/ImcTaskManager.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven-repo" />
+        <option name="mavenHome" value="E:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="6" />
+    <option name="y" value="251" />
+    <option name="width" value="1938" />
+    <option name="height" value="674" />
+  </component>
+  <component name="ProjectId" id="1Um06ddWRaOHDg63StUoRLIPT8F" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ananops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ananops-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ananops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ananops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ananops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ananops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider-imc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ananops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ananops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider-imc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ananops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ananops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider-imc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ananops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ananops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider-imc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ananops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ananops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider-imc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ananops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ananops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider-imc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ananops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ananops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider-imc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ananops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ananops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider-imc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ananops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ananops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider-imc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ananops-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ananops-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops-provider-imc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ananops" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ananops.provider.model.domain" />
+      <recent name="com.ananops.provider.mapper" />
+      <recent name="com.ananops" />
+      <recent name="com.ananops.discovery" />
+      <recent name="com.ananops.discovery.eureka" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\北京安防协会项目\ananops-master\ananops-master\ananops-provider\ananops-provider-imc\src\main\java\com\ananops\provider" />
+      <recent name="D:\北京安防协会项目\ananops-master\ananops-master\ananops-provider\ananops-provider-imc\src\main\resources" />
+      <recent name="E:\AnanOps\ananops-master\ananops-provider\ananops-provider-uac\src\main\resources" />
+      <recent name="E:\AnanOps\ananops-master\ananops-provider\ananops-provider-tpc\src\main\resources" />
+      <recent name="E:\AnanOps\ananops-master\ananops-provider\ananops-provider-opc\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AnanOpsImcApplication">
+    <configuration name="AnanOpsDiscoveryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ananops.discovery.AnanOpsDiscoveryApplication" />
+      <module name="ananops-discovery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ananops.discovery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnanOpsGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ananops.gateway.AnanOpsGatewayApplication" />
+      <module name="ananops-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ananops.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnanOpsImcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ananops.AnanOpsImcApplication" />
+      <module name="ananops-provider-imc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ananops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnanOpsTpcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ananops.AnanOpsTpcApplication" />
+      <module name="ananops-provider-tpc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ananops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnanOpsUacApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ananops.AnanOpsUacApplication" />
+      <module name="ananops-provider-uac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ananops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnanOpsDiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ananops-discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ananops.discovery.AnanOpsDiscoveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnanOpsEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ananops-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ananops.discovery.eureka.AnanOpsEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnanOpsGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ananops-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ananops.gateway.AnanOpsGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnanOpsMonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ananops-monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ananops.discovery.AnanOpsMonitorApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnanOpsOpcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ananops-provider-opc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ananops.AnanOpsOpcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnanOpsTpcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ananops-provider-tpc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ananops.AnanOpsTpcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnanOpsUacApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ananops-provider-uac" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ananops.AnanOpsUacApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="D:\DeveloperSoftwares\Java\jdk1.8.0_221\jre" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnanOpsZipkinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ananops-zipkin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ananops.discovery.AnanOpsZipkinApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AnanOpsDiscoveryApplication" />
+      <item itemvalue="Application.AnanOpsUacApplication" />
+      <item itemvalue="Application.AnanOpsGatewayApplication" />
+      <item itemvalue="Application.AnanOpsTpcApplication" />
+      <item itemvalue="Application.AnanOpsImcApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnanOpsImcApplication" />
+        <item itemvalue="Application.AnanOpsTpcApplication" />
+        <item itemvalue="Application.AnanOpsGatewayApplication" />
+        <item itemvalue="Application.AnanOpsUacApplication" />
+        <item itemvalue="Application.AnanOpsDiscoveryApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2637aff0-7a6e-4a13-b8db-d9fe9097a6df" name="Default Changelist" comment="" />
+      <created>1575370784999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575370784999</updated>
+      <workItem from="1575370786487" duration="4848000" />
+      <workItem from="1575375793596" duration="1420000" />
+      <workItem from="1575380354907" duration="4723000" />
+      <workItem from="1575386501002" duration="3860000" />
+      <workItem from="1575432587822" duration="17217000" />
+      <workItem from="1575466370881" duration="2591000" />
+      <workItem from="1575468993041" duration="13188000" />
+      <workItem from="1575521507982" duration="14778000" />
+      <workItem from="1575554426553" duration="6329000" />
+      <workItem from="1575946291709" duration="44391000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1575956950842</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575956950842</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1575970529782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575970529782</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25268096" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Stack trace to UML" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50067025" side_tool="true" weight="0.40029326" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32991204" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49932975" visible="true" weight="0.40029326" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="PlantUML" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/enums/TaskStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcDeviceOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="84" lean-forward="true" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcInspectionItemLogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcInspectionItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcInspectionReviewService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcInspectionTaskLogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcInspectionTaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/ImcPermitsInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcDeviceOrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionItemLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionReviewServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionTaskLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-common/ananops-common-base/src/main/java/com/ananops/base/constant/AliyunMqTopicConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcPermitsInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/frontend/ImcDeviceOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/frontend/ImcInspectionItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/frontend/ImcInspectionTaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/frontend/ImcPermitsInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/web/frontend/ImcInspectionReviewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-gateway/src/main/java/com/ananops/gateway/AnanOpsGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-tpc/src/main/java/com/ananops/AnanOpsTpcApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/core/aspect/AnanLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/core/annotation/AnanLogAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-common/ananops-common-core/src/main/java/com/ananops/core/interceptor/TokenInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/AnanOpsImcApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/config/ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/config/ImcWebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-mdc/src/main/java/com/ananops/provider/model/domain/MdcAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcDeviceOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-633">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionItemInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionItemLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionReview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcInspectionTaskLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcMaintenanceTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/ImcPermitsInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcInspectionItemInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcPermitsInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/mappers/ImcDeviceOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/ImcDeviceOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/mappers/ImcInspectionItemInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/mappers/ImcInspectionItemLogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-283" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/mapper/MqMessageDataMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/resources/mappers/MqMessageDataMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/model/domain/MqMessageData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/service/impl/ImcInspectionTaskServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc/src/main/java/com/ananops/provider/manager/ImcTaskManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ananops-provider-api/ananops-provider-sdk-api/src/main/java/com/ananops/provider/model/domain/MqMessageData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 2.7 (py27_env) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ananops-common-config</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

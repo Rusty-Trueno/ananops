@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-common/ananops-common-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-common/ananops-common-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-common/ananops-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-common/ananops-common-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-common/ananops-common-zk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-common/ananops-security-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-common/ananops-security-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-common/ananops-security-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-provider-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-provider-api/ananops-provider-mdc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-provider-api/ananops-provider-omc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-provider-api/ananops-provider-opc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-provider-api/ananops-provider-sdk-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-provider-api/ananops-provider-tpc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-provider-api/ananops-provider-uac-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-provider/ananops-provider-imc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-provider/ananops-provider-mdc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-provider/ananops-provider-opc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-provider/ananops-provider-tpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-provider/ananops-provider-uac" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ananops-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elastic-job-lite-starter-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elastic-job-lite-starter-parent/elastic-job-lite-starter" charset="UTF-8" />
+  </component>
+</project>

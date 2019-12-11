@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ananops-security-core" />
+        <module name="ananops-provider-mdc" />
+        <module name="ananops-provider-sdk-api" />
+        <module name="ananops-provider-tpc" />
+        <module name="ananops-gateway" />
+        <module name="ananops-provider-imc" />
+        <module name="ananops-eureka" />
+        <module name="ananops-provider-uac-api" />
+        <module name="ananops-security-app" />
+        <module name="ananops-provider-tpc-api" />
+        <module name="ananops-zipkin" />
+        <module name="ananops-provider-mdc-api" />
+        <module name="ananops-security-feign" />
+        <module name="ananops-provider-omc-api" />
+        <module name="elastic-job-lite-starter" />
+        <module name="ananops-monitor" />
+        <module name="ananops-common-core" />
+        <module name="ananops-provider-uac" />
+        <module name="ananops-provider-opc" />
+        <module name="ananops-common-base" />
+        <module name="ananops-common-zk" />
+        <module name="ananops-discovery" />
+        <module name="ananops-provider-opc-api" />
+        <module name="ananops-common-util" />
+        <module name="ananops-common-config" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ananop-seureka" target="1.8" />
+      <module name="ananop-zipkin" target="1.8" />
+      <module name="ananopseureka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

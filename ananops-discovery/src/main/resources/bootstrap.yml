@@ -1,0 +1,35 @@
+spring:
+  profiles: #配置中心本地路径
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: D:/北京安防协会项目/ananops-config-repo/ananops-config-repo
+#        git:
+#        uri: https://github.com/SongOf/ananops-config-repo/ananops-config-repo.git
+#        username:
+#        password:
+#        search-paths: /*
+#        default-label: ${spring.profiles.active}
+#        basedir: /data/config/ananops-config-repo
+    inetutils:
+      ignoredInterfaces:
+        - docker0
+        - veth.*
+      preferredNetworks:
+        - 10.108
+
+encrypt:
+  key-store:
+    location: classpath:/server.jks
+    password: paascloud-storepass
+    alias: paascloud-key-store
+    secret: paascloud-keypass
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@ananops-eureka:8761/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${server.port}

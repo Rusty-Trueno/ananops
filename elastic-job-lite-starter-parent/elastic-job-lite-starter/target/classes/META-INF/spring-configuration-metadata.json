@@ -1,0 +1,65 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.ananops.elastic.lite.ZookeeperRegistryProperties",
+      "name": "ananops.zk",
+      "type": "com.ananops.elastic.lite.ZookeeperRegistryProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.ananops.elastic.lite.ZookeeperRegistryProperties",
+      "defaultValue": 1000,
+      "name": "ananops.zk.base-sleep-time-milliseconds",
+      "description": "等待重试的间隔时间的初始值\n 单位：毫秒",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.ananops.elastic.lite.ZookeeperRegistryProperties",
+      "defaultValue": 15000,
+      "name": "ananops.zk.connection-timeout-milliseconds",
+      "description": "连接超时时间\n 单位：毫秒",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.ananops.elastic.lite.ZookeeperRegistryProperties",
+      "name": "ananops.zk.digest",
+      "description": "连接Zookeeper的权限令牌\n 缺省为不需要权限验",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ananops.elastic.lite.ZookeeperRegistryProperties",
+      "defaultValue": 3,
+      "name": "ananops.zk.max-retries",
+      "description": "最大重试次数",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.ananops.elastic.lite.ZookeeperRegistryProperties",
+      "defaultValue": 3000,
+      "name": "ananops.zk.max-sleep-time-milliseconds",
+      "description": "等待重试的间隔时间的最大值\n 单位：毫秒",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.ananops.elastic.lite.ZookeeperRegistryProperties",
+      "name": "ananops.zk.namespace",
+      "description": "Zookeeper的命名空间",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ananops.elastic.lite.ZookeeperRegistryProperties",
+      "defaultValue": 60000,
+      "name": "ananops.zk.session-timeout-milliseconds",
+      "description": "会话超时时间\n 单位：毫秒",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.ananops.elastic.lite.ZookeeperRegistryProperties",
+      "name": "ananops.zk.zk-address-list",
+      "description": "连接Zookeeper服务器的列表\n 包括IP地址和端口号\n 多个地址用逗号分隔\n 如: host1:2181,host2:2181",
+      "type": "java.lang.String"
+    }
+  ]
+}
